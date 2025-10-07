@@ -1,0 +1,2 @@
+# Cross-Disease-Drug-Repurposing-for-Accelerated-Therapeutic-Discovery
+This project focuses on Cross Drug Repurposing to accelerate therapeutic discovery by identifying new treatment potentials for existing drugs. By uncovering hidden relationships across drug–gene–disease networks, the system supports faster, data-driven identification of repurposable drugs, reducing research time in the search for novel therapies.
