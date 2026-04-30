@@ -1,6 +1,6 @@
 # Unified Biomedical Knowledge Graph Integration and Ultra-GCN Based Drug Repurposing
 This project focuses on Cross Drug Repurposing to accelerate therapeutic discovery by identifying new treatment potentials for existing drugs. By uncovering hidden relationships across drug–gene–disease networks, the system supports faster, data-driven identification of repurposable drugs, reducing research time in the search for novel therapies.
-## 2. Knowledge Graph Sources
+## Knowledge Graph Sources
 
 The five biomedical knowledge graphs utilized in this project are stored within the repository and can be accessed directly below:
 
@@ -23,3 +23,24 @@ The five biomedical knowledge graphs utilized in this project are stored within 
 - **Biomedical Ontology / Annotation Knowledge Graph**  
   Provides semantic enrichment through controlled vocabularies and hierarchical relationships  
   🔗 [View Dataset](https://github.com/riddima15benjamin/kgs_ugcn)
+
+## Results and Training Convergence
+
+The training process demonstrated consistent and stable convergence, indicating effective optimization and strong generalization performance.
+
+### Training Metrics
+- **Initial Loss:** 0.0781  
+- **Final Loss:** 0.0023  
+- **Validation AUC:** Improved from **0.5515 → 0.8891**
+
+### Validation AUC Curve
+
+![Validation AUC Curve](./assets/validation_auc_curve.png)
+
+### Analysis
+- Rapid improvement in AUC during early epochs suggests efficient learning of graph representations  
+- Gradual stabilization indicates convergence without significant overfitting  
+- Final AUC of ~0.89 reflects strong predictive capability for drug–disease link prediction  
+- Loss reduction confirms effective parameter optimization and model stability  
+
+Overall, the model achieves a balance between accuracy and computational efficiency, making it suitable for large-scale biomedical graph analysis.
